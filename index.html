@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos da Escola</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e6f2ff; /* Azul claro */
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            text-align: center;
+            color: #003366; /* Azul escuro */
+            margin-bottom: 20px;
+            font-size: 2.5em;
+            text-transform: uppercase;
+        }
+        .container {
+            max-width: 800px;
+            width: 100%;
+        }
+        .evento {
+            background: white;
+            border: 2px solid #99ccff; /* Azul médio */
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .evento:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+        .evento h2 {
+            margin: 0;
+            color: #003366; /* Azul escuro */
+            font-size: 1.8em;
+        }
+        .evento p {
+            color: #555;
+            font-size: 1em;
+            line-height: 1.5;
+        }
+        .foto-link {
+            display: block;
+            margin-top: 15px;
+            color: #0066cc; /* Azul */
+            text-decoration: none;
+            font-weight: bold;
+            border: 2px solid #0066cc;
+            padding: 8px;
+            border-radius: 5px;
+            text-align: center;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .foto-link:hover {
+            background-color: #0066cc;
+            color: white;
+        }
+        img {
+            max-width: 100%; /* Ajusta a largura da imagem ao tamanho do container */
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        @media (max-width: 600px) {
+            .evento h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Eventos da Escola</h1>
+    <div class="container">
+
+        <div class="evento">
+            <h2>Páscoa</h2>
+            <p>Celebramos a Páscoa com diversas atividades, incluindo oficinas de arte e contação de histórias, além de uma caça aos ovos muito divertida.</p>
+            <img  alt="Fotos da Páscoa">
+            <a href="pascoa.html" class="foto-link" target="_blank">Veja as fotos</a>
+        </div>
+
+        <div class="evento">
+            <h2>Agosto Lilás</h2>
+            <p>Uma campanha de conscientização sobre a violência contra a mulher, com palestras, rodas de conversa e atividades culturais que promovem a igualdade de gênero.</p>
+            <img  alt="Fotos do Agosto Lilás">
+            <a href="agosto.html" class="foto-link" target="_blank">Veja as fotos</a>
+        </div>
+
+        <div class="evento">
+            <h2>Feira Cultural Interclasse</h2>
+            <p>Um evento que reúne os alunos em uma mostra cultural com apresentações de danças, músicas e exposições de trabalhos, promovendo a integração entre as turmas.</p>
+            <img  alt="Fotos da Feira Cultural">
+            <a href="cultural.html" class="foto-link" target="_blank">Veja as fotos</a>
+        </div>
+
+        <div class="evento">
+            <h2>Acolhimento</h2>
+            <p>Um evento especial de recepção para novos alunos e suas famílias, com atividades de integração e apresentações dos projetos da escola.</p>
+            <img  alt="Fotos do Acolhimento">
+            <a href="acolhimento.html" class="foto-link" target="_blank">Veja as fotos</a>
+        </div>
+
+        <div class="evento">
+            <h2>Talentos</h2>
+            <p>Um showcase dos talentos dos alunos, onde todos podem se apresentar, seja cantando, dançando ou mostrando suas habilidades em diversas áreas.</p>
+            <img  alt="Fotos dos Talentos">
+            <a href="talentos.html" class="foto-link" target="_blank">Veja as fotos</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
